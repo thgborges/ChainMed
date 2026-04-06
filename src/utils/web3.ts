@@ -4,7 +4,7 @@ import { toast } from "@/components/ui/sonner";
 // Endereço do contrato na rede Sepolia
 export const CONTRACT_ADDRESS = "0xD78f5D898Fb070D798edCC6Ca6d386aF9c1c90d3";
 
-// ABI do contrato TuringRX
+// ABI do contrato ChainMed
 export const CONTRACT_ABI = [
 	{
 		"anonymous": false,
@@ -195,7 +195,7 @@ export const CONTRACT_ABI = [
 						"type": "bool"
 					}
 				],
-				"internalType": "struct TuringRX.Doctor",
+				"internalType": "struct ChainMed.Doctor",
 				"name": "",
 				"type": "tuple"
 			}
@@ -231,7 +231,7 @@ export const CONTRACT_ABI = [
 						"type": "bool"
 					}
 				],
-				"internalType": "struct TuringRX.Patient",
+				"internalType": "struct ChainMed.Patient",
 				"name": "",
 				"type": "tuple"
 			}
@@ -292,7 +292,7 @@ export const CONTRACT_ABI = [
 						"type": "bool"
 					}
 				],
-				"internalType": "struct TuringRX.Prescription",
+				"internalType": "struct ChainMed.Prescription",
 				"name": "",
 				"type": "tuple"
 			}
@@ -868,6 +868,7 @@ export const sharePrescription = async (
     console.error("Erro ao compartilhar prescrição:", error);
     toast.error("Erro ao compartilhar prescrição no contrato");
     return false;
+	
   }
 };
 

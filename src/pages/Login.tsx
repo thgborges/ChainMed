@@ -71,7 +71,7 @@ const Login = () => {
             }
           }
           
-          localStorage.setItem('turingrx-user', JSON.stringify(userData));
+          localStorage.setItem('chainmed-user', JSON.stringify(userData));
           
           toast.success('Login bem-sucedido!');
           
@@ -121,7 +121,7 @@ const Login = () => {
       
       if (success) {
         // Save user info to localStorage
-        localStorage.setItem('turingrx-user', JSON.stringify({
+        localStorage.setItem('chainmed-user', JSON.stringify({
           address: walletAddress,
           userType,
           name: formData.name,
@@ -153,7 +153,7 @@ const Login = () => {
 
   // Check if user is already logged in
   useEffect(() => {
-    const storedUser = localStorage.getItem('turingrx-user');
+    const storedUser = localStorage.getItem('chainmed-user');
     if (storedUser) {
       const { userType } = JSON.parse(storedUser);
       if (userType === 'doctor') {
@@ -171,7 +171,7 @@ const Login = () => {
           {!walletAddress ? (
             <Card>
               <CardHeader className="text-center">
-                <CardTitle className="text-2xl">Bem-vindo ao TuringRX</CardTitle>
+                <CardTitle className="text-2xl">Bem-vindo ao ChainMed</CardTitle>
                 <CardDescription>
                   Conecte sua carteira MetaMask para acessar a plataforma
                 </CardDescription>

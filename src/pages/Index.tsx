@@ -7,14 +7,14 @@ import { Button } from '@/components/ui/button';
 const Index = () => {
   return (
     <Layout showNav={false}>
-      <section className="turingrx-hero py-20 md:py-32 text-white">
+      <section className="chainmed-hero py-20 md:py-32 text-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
               Prescrições Médicas na Blockchain
             </h1>
             <p className="text-xl mb-10">
-              TuringRX revoluciona a forma como médicos prescrevem e pacientes gerenciam seus medicamentos, 
+              ChainMed revoluciona a forma como médicos prescrevem e pacientes gerenciam seus medicamentos, 
               tudo com a segurança e imutabilidade da tecnologia blockchain.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
@@ -72,7 +72,7 @@ const Index = () => {
       <section className="py-16 bg-medical-50">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-6">Por que escolher TuringRX?</h2>
+            <h2 className="text-3xl font-bold mb-6">Por que escolher ChainMed?</h2>
             
             <div className="grid md:grid-cols-2 gap-6 text-left mt-10">
               <div className="flex gap-4">

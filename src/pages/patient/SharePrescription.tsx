@@ -32,7 +32,7 @@ const SharePrescription = () => {
     const loadData = async () => {
       try {
         // Obter o endereço do paciente logado do localStorage
-        const userDataStr = localStorage.getItem('turingrx-user');
+        const userDataStr = localStorage.getItem('chainmed-user');
         if (!userDataStr) {
           toast.error('Usuário não encontrado. Por favor, faça login novamente.');
           return;

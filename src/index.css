@@ -96,7 +96,7 @@
 }
 
 @layer components {
-  .turingrx-hero {
+  .chainmed-hero {
     background-image: linear-gradient(to right bottom, rgba(0, 178, 178, 0.8), rgba(0, 106, 106, 0.8)), url('/bg-pattern.svg');
     background-size: cover;
     background-position: center;

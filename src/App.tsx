@@ -27,7 +27,7 @@ const ProtectedRoute = ({
   element: React.ReactNode;
   requiredUserType: 'doctor' | 'patient';
 }) => {
-  const user = localStorage.getItem('turingrx-user');
+  const user = localStorage.getItem('chainmed-user');
   
   if (!user) {
     return <Navigate to="/login" replace />;
@@ -39,7 +39,7 @@ const ProtectedRoute = ({
       return <Navigate to="/" replace />;
     }
   } catch (e) {
-    localStorage.removeItem('turingrx-user');
+    localStorage.removeItem('chainmed-user');
     return <Navigate to="/login" replace />;
   }
 
