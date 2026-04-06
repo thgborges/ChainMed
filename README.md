@@ -1,49 +1,51 @@
+<p align="center">
+  <img src="src/assets/chainmed-logo.png" alt="ChainMed Logo" width="200" />
+</p>
+
 <h1 align="center">🧬 ChainMed</h1>
 
 <p align="center">
-  <strong>Plataforma inovadora baseada em blockchain para prescrições médicas digitais.
+  <strong>Prescrição médica digital com segurança e rastreabilidade via blockchain</strong>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Node.js-20-339933?logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/EJS-Template-8A2BE2" />
+  <img src="https://img.shields.io/badge/Web3.js-Integration-F16822?logo=ethereum&logoColor=white" />
+  <img src="https://img.shields.io/badge/Solidity-0.8.26-363636?logo=solidity&logoColor=white" />
+  <img src="https://img.shields.io/badge/Blockchain-Ethereum-3C3C3D?logo=ethereum&logoColor=white" />
+  <img src="https://img.shields.io/badge/Rede-Sepolia-8B5CF6" />
 </p>
 
 ---
 
 ## 📖 Sobre
 
-**Chainmed** é uma plataforma inovadora baseada em blockchain que moderniza e garante a segurança dos processos médicos digitais, começando pela prescrição médica eletrônica.
+**ChainMed** é uma plataforma Web3 que transforma a forma como prescrições médicas são emitidas, armazenadas e compartilhadas, utilizando blockchain para garantir segurança, transparência e confiabilidade.
 
-🚀 Principais funcionalidades
-🩺 Registro de prescrições médicas em blockchain
-🔐 Autenticação via carteira (Web3)
-👨‍⚕️ Cadastro de médicos com validação de dados profissionais
-👤 Cadastro de pacientes com identificação segura
-📄 Visualização e compartilhamento de prescrições
-🔎 Busca por prescrições (CPF ou nome)
-🌐 Integração com rede de testes (Sepolia)
+- 🔒 **Anti-Fraude** — Prescrições imutáveis registradas em blockchain  
+- 📜 **Rastreabilidade** — Histórico completo e auditável  
+- 👤 **Controle do Paciente** — Compartilhamento sob sua decisão  
+- 👨‍⚕️ **Confiança Médica** — Validação de profissionais  
 
 ---
 
-🧩 Arquitetura
-Frontend: Node.js + EJS
-Blockchain: Ethereum (Sepolia)
-Smart Contracts: Solidity
-Integração Web3: Web3.js / MetaMask
+## 🖼️ Screenshots
 
----
-🔗 Proposta
-
-O ChainMed vai além da prescrição digital. A plataforma foi projetada de forma modular para evoluir para um ecossistema completo de saúde digital, incluindo:
-
-Validação de profissionais e medicamentos
-Rastreabilidade de tratamentos
-Integração com clínicas e seguradoras
-APIs para interoperabilidade com sistemas legados
+<p align="center">
+  <img src="src/assets/dashboard.png" alt="Dashboard" width="280" />
+  <img src="src/assets/prescription.png" alt="Prescrição" width="280" />
+  <img src="src/assets/search.png" alt="Busca" width="280" />
+</p>
 
 ---
 
-💡 Objetivo
+## 🏗️ Arquitetura
 
-Reduzir fraudes, aumentar a segurança das informações médicas e devolver ao paciente o controle sobre seus próprios dados, utilizando o poder da tecnologia blockchain.
 
 ---
+---
+
 
 #### Tecnologias utilizadas
 Este projeto foi desenvolvido com as seguintes tecnologias:
