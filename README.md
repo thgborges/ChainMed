@@ -1,3 +1,38 @@
+<h1 align="center">🧬 ChainMed</h1>
+
+<p align="center">
+  <strong>Plataforma inovadora baseada em blockchain para prescrições médicas digitais.
+</p>
+
+## 📖 Sobre
+
+**Chainmed** é uma plataforma inovadora baseada em blockchain que moderniza e garante a segurança dos processos médicos digitais, começando pela prescrição médica eletrônica.
+
+🚀 Principais funcionalidades
+🩺 Registro de prescrições médicas em blockchain
+🔐 Autenticação via carteira (Web3)
+👨‍⚕️ Cadastro de médicos com validação de dados profissionais
+👤 Cadastro de pacientes com identificação segura
+📄 Visualização e compartilhamento de prescrições
+🔎 Busca por prescrições (CPF ou nome)
+🌐 Integração com rede de testes (Sepolia)
+🧩 Arquitetura
+Frontend: Node.js + EJS
+Blockchain: Ethereum (Sepolia)
+Smart Contracts: Solidity
+Integração Web3: Web3.js / MetaMask
+🔗 Proposta
+
+O ChainMed vai além da prescrição digital. A plataforma foi projetada de forma modular para evoluir para um ecossistema completo de saúde digital, incluindo:
+
+Validação de profissionais e medicamentos
+Rastreabilidade de tratamentos
+Integração com clínicas e seguradoras
+APIs para interoperabilidade com sistemas legados
+💡 Objetivo
+
+Reduzir fraudes, aumentar a segurança das informações médicas e devolver ao paciente o controle sobre seus próprios dados, utilizando o poder da tecnologia blockchain.
+
 #### Tecnologias utilizadas
 Este projeto foi desenvolvido com as seguintes tecnologias:
 - Vite
