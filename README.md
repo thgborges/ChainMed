@@ -34,9 +34,6 @@ Você pode publicar o projeto em qualquer serviço de hospedagem estática que s
 -GitHub Pages
 -Render
 
-#### Deploy Vercel
-https://chain-med.vercel.app/
-
 #### Tela principal
 
 ![image](https://github.com/user-attachments/assets/24193083-98b0-4583-b580-daa00da20196)
