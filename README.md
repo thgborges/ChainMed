@@ -1,7 +1,3 @@
-#### ChainMed: Projeto React com Vite, Tailwind e shadcn-ui
-
-https://chain-med.vercel.app/
-
 #### Tecnologias utilizadas
 Este projeto foi desenvolvido com as seguintes tecnologias:
 - Vite
